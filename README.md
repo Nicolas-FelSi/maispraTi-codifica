@@ -1,4 +1,4 @@
-### Como rodar exercícios do módulo 1
+### 1️⃣ Como rodar exercícios do módulo 1
 - Entre na pasta modulo1:
 ```
 cd modulo1
