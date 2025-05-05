@@ -6,31 +6,31 @@
 // Triângulo escaleno: possui todos os lados diferentes (A<>B e B <> C)
 // Triângulo eqüilátero: possui todos os lados iguais (A=B e B=C)
 
-// const input = require("prompt-sync")();
+const input = require("prompt-sync")();
 
-// let ladoA = input("Digite o lado A: ").trim();
-// let ladoB = input("Digite o lado B: ").trim();
-// let ladoC = input("Digite o lado C: ").trim();
+let ladoA = input("Digite o lado A: ").trim();
+let ladoB = input("Digite o lado B: ").trim();
+let ladoC = input("Digite o lado C: ").trim();
 
-// if (!(isNaN(ladoA) || isNaN(ladoB) || isNaN(ladoC))) {
-//     ladoA = Number(ladoA);
-//     ladoB = Number(ladoB);
-//     ladoC = Number(ladoC);
+if (!(isNaN(ladoA) || isNaN(ladoB) || isNaN(ladoC))) {
+    ladoA = Number(ladoA);
+    ladoB = Number(ladoB);
+    ladoC = Number(ladoC);
 
-//     if ((ladoA < ladoB + ladoC) && (ladoB < ladoA + ladoC) && (ladoC < ladoA + ladoB)) {
-//         console.log("É um triângulo!");
+    if ((ladoA < ladoB + ladoC) && (ladoB < ladoA + ladoC) && (ladoC < ladoA + ladoB)) {
+        console.log("É um triângulo!");
 
-//         if (ladoA==ladoB || ladoA==ladoC || ladoB == ladoC) {
-//             console.log("Triângulo isósceles.");
-//         } else if (ladoA == ladoB && ladoB == ladoC) {
-//             console.log("Triângulo equilátero.");
-//         } else {
-//             console.log("Triângulo escaleno.");
-//         }
-//     } else {
-//         console.log("Não é um triângulo!");
-//     }
-// } else {
-//     console.log("Digite apenas números e utilize ponto no lugar de vírgula.");
-// }
+        if (ladoA == ladoB && ladoB == ladoC) {
+            console.log("Triângulo equilátero.");
+        } else if (ladoA==ladoB || ladoA==ladoC || ladoB == ladoC) {
+            console.log("Triângulo isósceles.");
+        } else {
+            console.log("Triângulo escaleno.");
+        }
+    } else {
+        console.log("Não é um triângulo!");
+    }
+} else {
+    console.log("Digite apenas números e utilize ponto no lugar de vírgula.");
+}
 
