@@ -5,9 +5,9 @@
     cd maispraTi-codifica
     ```
     
-2. Entre na pasta modulo1:
+2. Entre na pasta modulo1 e exercicios-obrigatorios:
     ```
-    cd modulo1
+    cd modulo1/exercicios-obrigatorios
     ```
     
 3. Instale a(s) dependências:
