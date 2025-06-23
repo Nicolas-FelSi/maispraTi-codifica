@@ -13,3 +13,13 @@ function debounce(fn, delay) {
     }, delay);
   };
 }
+
+function buscarDados() {
+  console.log('Buscando dados...', new Date().toLocaleTimeString());
+}
+
+const buscarComDebounce = debounce(buscarDados, 2000);
+
+buscarComDebounce();
+buscarComDebounce();
+buscarComDebounce();

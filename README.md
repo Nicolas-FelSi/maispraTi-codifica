@@ -4,10 +4,10 @@
     git clone https://github.com/Nicolas-FelSi/maispraTi-codifica.git
     cd maispraTi-codifica
     ```
-    
-2. Entre na pasta modulo1 e exercicios-obrigatorios:
+
+2. Acesse o módulo e a lista desejada:
     ```
-    cd modulo1/exercicios-obrigatorios
+    cd modulo1/ListaExercicios1
     ```
     
 3. Instale a(s) dependências:
@@ -18,13 +18,12 @@
 🚨 Este módulo utiliza apenas a biblioteca prompt-sync para permitir entrada de dados pelo terminal.
 
 ## ▶️ Como executar os exercícios
-Os arquivos estão localizados na pasta modulo1, nomeados de exercicio1.js até exercicio15.js.
-Para executar qualquer exercício, use o comando:
+Quando estiver na pasta da lista de exercício desejada, para executar qualquer exercício, use o comando:
 
 ```
-node exercicio1.js
+node nome-do-arquivo.js
 ```
-Substitua exercicio1.js pelo nome do exercício que deseja testar, como exercicio5.js, exercicio12.js, etc.
+Substitua nome-do-arquivo.js pelo nome do exercício que deseja testar, como exercicio5.js, ex1.js, etc.
 
 ### ⚠️Observações
 Certifique-se de estar no diretório correto ao rodar os arquivos.
